@@ -1,0 +1,134 @@
+/* Add custom styles here */
+
+body {
+  background-color: #c4c4bb;
+  color: #25685f;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  animation: fadeInDown 2s ease;
+  font-family: 'Playfair Display', serif;
+  color: #25685f;
+  font-size: 72px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #fbf8ec;
+  font-size: 36px;
+  margin-top: 30px; /* Add margin to top */
+  margin-bottom: 20px; /* Add margin to bottom */
+  text-align: center;
+}
+
+/* Header Styles */
+header {
+  color: inherit;
+  padding: 10px 0;
+  margin: 20px;
+  animation: fadeInDown 2s ease;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0;
+  color: #25685f;
+}
+
+header p {
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+  margin: 0;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Header Container Styles */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+ul {
+  text-align: left;
+  padding-left: 20px;
+}
+
+section {
+  text-align: left; /* Align section content to left */
+}
+
+section p {
+  margin-bottom: 20px; /* Add margin to bottom of paragraphs */
+}
+
+.image-container {
+  text-align: center;
+  padding: 20px ; /* Add padding to top and bottom */
+}
+
+.image-container img {
+  max-width: 50%; /* Make image responsive */
+  padding: 20px;
+}
+
+/* Button Styles */
+.btn.btn-primary {
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 3.2rem;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+  background: #033a35;
+  color: #fcd961;
+}
+
+.btn.btn-primary::after {
+  content: '\2192';
+  margin-left: 5px;
+}
+
+/* Footer Styles */
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  text-align: center; /* Align footer content to center */
+}
+
+footer img {
+  width: 70px;
+  height: auto;
+}

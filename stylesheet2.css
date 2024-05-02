@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900,400i,500i,600i,700i,800i,900i&display=swap');
+
+/* Body Styles */
+body {
+    background-image: url('https://i.ibb.co/DQq1tPM/paper-texture-background-52701-699.jpg'); /* Light cream background */
+    color: #25685f; /* Dark greenish text color */
+    font-family: "Inter", sans-serif; /* Inter font */
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 160%;
+}
+
+h1 {
+    animation: fadeInDown 2s ease;
+    font-family: 'Playfair Display', serif;
+    color:#25685f;
+    font-size: 120px;
+    padding-bottom: 30px;
+
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color:#25685f;
+    font-size: 48px;
+}
+
+/* Header Styles *//* Header Styles */
+header {
+    background-image: url('https://i.ibb.co/DQq1tPM/paper-texture-background-52701-699.jpg'); /* Light cream background */
+    color: inherit;
+    padding: 10px 0; /* Keep padding on top and bottom */
+    margin: 20px;
+    animation: fadeInDown 2s ease;
+    padding-left: 20px; /* Add padding only to the left side */
+    padding-right: 20px; /* Add padding only to the right side */
+}
+
+
+header h1 {
+    font-family: "Playfair Display", serif; /* Playfair Display font */
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0;
+    color: #25685f; /* Dark greenish header text color */
+}
+
+header p {
+    font-family: "Inter", sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* Header Container Styles */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.header-link {
+    color: #25685f;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+    padding: 80px;
+    animation: fadeInDown 2s ease;
+    text-align: center;
+}
+
+.animated {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Button Styles */
+.btn.btn-primary { 
+    font-family: "Inter", sans-serif; 
+    font-size: 1.4rem; /* Smaller font size */
+    font-weight: 500; 
+    line-height: 100%;
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 10rem; /* Fixed width for rectangular shape */
+    height: 3.2rem; /* Fixed height */
+    margin: 0; 
+    padding: 0; /* No padding */
+    position: relative; 
+    background: rgba(0,0,0,0); 
+    border: none; 
+    outline: 0; 
+    cursor: pointer;
+    transition: all .4s cubic-bezier(.19,1,.22,1);
+    background: #033a35;
+    color: #fcd961;
+} 
+
+.btn.btn-primary::after {
+    content: '\2192'; /* Yellow arrow unicode */
+    margin-left: 5px; /* Spacing between text and arrow */
+}
+
+/* Footer Styles */
+footer {
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: left;
+    background-image: url('https://i.ibb.co/DQq1tPM/paper-texture-background-52701-699.jpg'); /* Light cream background */
+}
+
+footer.container {
+    width: 100%;
+}
+
+footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer img {
+    width: 70px;
+    height: auto;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li img {
+    width: 70px;
+    height: 70px;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Container Colors */
+#container1 {
+    background-color: #AAD1C2 !important; /* Light cream */
+    background-image: url('https://i.ibb.co/WHCPGGp/4.png');
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    height: 50vh; /* Set height to 100% of viewport height */
+    width: 100vw; /* Set width to 100% of viewport width */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: 0%; /* Center the container horizontally */
+    padding-bottom: 80px;
+    padding-top: 70px;
+    overflow: hidden;
+}
+
+#container1 .text-left {
+    margin-left: 0; /* Adjust left margin as needed */
+    font-size: 40px;
+}
+#container2 {
+    background-color: #b4c5b8; /* Dark greenish */
+    width: 100%; /* Set the container width to 100% of viewport width */
+    height: 100%; /* Set the container height to 100% of viewport height */
+    margin-left: 0%; /* Center the container horizontally */
+    margin-right: 0%; /* Center the container horizontally */
+    overflow: hidden;
+}
+
+#container2 img {
+    width: 100vh; /* Let the image retain its original width */
+    height: 70%; /* Set the height to cover the entire viewport height */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    object-position: left; /* Align the image to the left */
+    align-items: left;
+
+}
+
+#container2 .col-md-6 {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+}
+
+#container2 .text-center {
+    padding: 0 40px; /* Add padding to center-aligned content */
+}
+
+#container3 {
+    background-color: #92a096 !important;
+    font-family: 'Playfair Display', serif;
+    width: 110vw; /* Set width to 100% of viewport width */
+    height: 50vh; /* Set height to 100% of viewport height */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: 0%; /* Center the container horizontally */
+    overflow: hidden;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#container3 img {
+    width: 500px; /* Set a larger fixed width */
+    height: 300px; /* Set a larger fixed height */
+    object-fit: cover;
+    margin-right: 0%;
+    padding: 20px;
+} 
+
+#container4 {
+    background-color: #c4c4bb !important; /* Light cream */
+    color: #25685f !important; 
+    width: 100vw; /* Set width to 100% of viewport width */
+    height: 100%; /* Set height to 100% of viewport height */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: 0%; /* Center the container horizontally */
+    overflow: hidden;
+}
+
+#container4 img {
+    width: 500px; /* Set a larger fixed width */
+    height: 400px; /* Set a larger fixed height */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    border-radius: 50%; /* Make the image perfectly circular */
+}

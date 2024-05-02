@@ -1,0 +1,267 @@
+body {
+  background-color: #c4c4bb; /* Light cream background */
+  color: #fbf8ec; /* Dark greenish text color */
+  font-family: 'Inter', sans-serif; /* Inter font */
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left; /* Align text to the left */
+  margin: 20px;
+  padding: 10px;
+}
+
+h1 {
+  animation: fadeInDown 2s ease;
+  font-family: 'Playfair Display', serif;
+  color: #fcd961; /* Dark greenish */
+  font-size: 120px;
+  padding: 20px;
+  text-align: center; /* Center align the header */
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #25685f; /* Dark greenish */
+  font-size: 48px;
+  padding: 20px; /* Padding below h2 elements */
+  align-items: center;
+  text-align: center; /* Center align the header */
+}
+
+h3 {
+  color: #fcd961; /* Dark greenish */
+  text-align: center;
+}
+
+a {
+  color: #fcd961;
+}
+
+/* Header Styles */
+header {
+  color: inherit;
+  padding: 10px 0; /* Keep padding on top and bottom */
+  margin: 20px;
+  animation: fadeInDown 2s ease;
+  padding-left: 20px; /* Add padding only to the left side */
+  padding-right: 20px; /* Add padding only to the right side */
+}
+
+header h1 {
+  font-family: "Playfair Display", serif; /* Playfair Display font */
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0;
+  color: #25685f; /* Dark greenish header text color */
+}
+
+header p {
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+  margin: 0;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Header Container Styles */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header-link {
+  color: #25685f; /* Dark greenish */
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+  color: #e3d554;
+}
+
+.popup {
+  display: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  flex: 1;
+}
+
+/* Adjusted font colors */
+/* Container Styles */
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin-top: 10px;
+  padding-top: 200px; /* Add padding to create space for the image */
+  margin-top: 20px;
+}
+
+.content {
+  flex: 1;
+}
+
+#container2 {
+  background-color: inherit;
+  width: auto;
+  height: auto;
+  margin-left: 0%;
+  margin-right: 0;
+  overflow: hidden;
+}
+
+#container2 h1 {
+  font-size: 90px;
+}
+
+#container2 img {
+  width: 150%;
+  height: 400px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: right;
+  flex: 1;
+  overflow: hidden;
+  
+}
+
+#container2 .col-md-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 200px 0 0 200px;
+}
+
+/* List Styles */
+
+.container ul li {
+  margin-bottom: 10px;
+}
+
+.container ul li h2 {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #25685f;
+}
+
+.container ul li p {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #fbf8ec;
+}
+
+/* Button Styles */
+.btn.btn-primary {
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 3.2rem;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+  background: #033a35; /* Dark greenish */
+  color: #fcd961; /* Yellow */
+}
+
+.btn.btn-primary::after {
+  content: '\2192'; /* Yellow arrow unicode */
+  margin-left: 5px;
+  /* Spacing between text and arrow */
+}
+
+/* Footer Styles */
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  text-align: left;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer img {
+  width: 70px;
+  height: auto;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 70px;
+  height: 70px;
+}
+
+/* Styles for all relaxation techniques */
+.relaxation-technique {
+  font-family: 'Crimson Pro', sans-serif;
+  /* Use Crimson Pro font */
+  background-color: #fbf8ec;
+  /* Light yellow background */
+  color: #25685f;
+  /* Dark greenish text color */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  /* Limit width to improve readability */
+  border-radius: 10px;
+  /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Add subtle shadow */
+}
+
+.relaxation-technique h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.relaxation-technique ul {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.relaxation-technique li {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
